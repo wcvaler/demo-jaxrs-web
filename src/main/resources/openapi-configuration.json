@@ -1,0 +1,22 @@
+{
+    "resourcePackages": [
+        "endpoints"
+    ],
+    "prettyPrint" : true,
+    "cacheTTL": 0,
+    "openAPI": {
+        "info": {
+            "version": "1.0",
+            "title": "Swagger Compras y Pagos",
+            "description": "Ejemplo de app rest con OPEN API Specification",
+            "termsOfService": "http://swagger.io/terms/",
+            "contact": {
+                "email": "wcvaler@pe.ibm.com"
+            },
+            "license": {
+                "name": "Apache 2.0",
+                "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+            }
+        }
+    }
+}
