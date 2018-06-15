@@ -36,7 +36,7 @@ public class Compras {
 	  })
 	public Response saluda(@PathParam(value="nombre") String nombre){
 		System.out.println("aplicacion :"+conf.getProperty("appName"));
-		System.out.println("saludos 2 "+bean2.getValue());
+		System.out.println("saludos 2 :::: "+bean2.getValue());
 			return Response.ok(bean.getSaludo(nombre)).build();
 	}
 
